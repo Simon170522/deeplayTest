@@ -1,2 +1,4 @@
-package org.study;public class thirdTask {
+package org.study;
+
+public class thirdTask {
 }
