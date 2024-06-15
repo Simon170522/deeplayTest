@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class secondTask {
+public class SecondTask {
     public static void main(String[] args) {
-        int n = 4; // размер массива 4
+        int n = 20; // размер массива 4
         int[] array = new int[n];
         Random rand = new Random();
         for (int i = 0; i < n; i++) {
-            array[i] = rand.nextInt(2) + 1; // заполнение числами от 1 до 2 для примера
+            array[i] = rand.nextInt(10) + 1; // заполнение числами от 1 до 2 для примера
         }
         System.out.println("Исходный массив:");
         printArray(array);

@@ -2,7 +2,7 @@ package org.study;
 
 import java.util.*;
 
-public class firstTask {
+public class FirstTask {
     public static void main(String[] args) {
         int n = 20;
         int[] array = new int[n];
